@@ -46,15 +46,15 @@ const Login = ({fetchLogIn}) => {
                 <input type="text"
                 id="login-username"
                 name="username"
-                placeholder="Username or Email"
+                placeholder="Enter Username or Email"
                 onChange={handleChange}
                 />
 
-                <label htmlFor="password">Password:</label>
+                <label htmlFor="password">Password: </label>
                 <input type="password"
                 id="login-password"
                 name="password"
-                placeholder="Password"
+                placeholder="Enter Password"
                 onChange={handleChange}
                 />
 
